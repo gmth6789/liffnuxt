@@ -8,9 +8,16 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "core-js": "^3.32.2",
-    "nuxt": "^2.17.1"
+  "dependencies": {
+    "nuxt": "^2.17.1",
     "@nuxtjs/axios": "^5.3.6",
-
+    "@nuxtjs/dotenv": "^1.4.0",
+    "vant": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
